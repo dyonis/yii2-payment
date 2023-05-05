@@ -1,0 +1,27 @@
+{
+  "name": "dyonis/yii2-payment",
+  "version": "1.0",
+  "description": "Yii2 Payment providers",
+  "type": "library",
+  "keywords": ["yii2","extension","swagger","Restful","document", "OA3"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denys Shpuhanych"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "dyonis\\yii2\\payment\\": "src"
+    }
+  }
+}
